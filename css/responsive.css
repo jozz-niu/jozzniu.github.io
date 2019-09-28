@@ -20,11 +20,19 @@
 	}
 
 	/* ***************************
-	PAGE VEDIO
+	PAGE ABOUT
 	*************************** */
 	.about{
 		float:left;
 		margin:0.5% 80px 0;
+	}
+	
+	/* ***************************
+	PAGE ABOUT
+	*************************** */
+	.surprise{
+		float:left;
+		margin:0.5% 150px 0;
 	}
 
 @media screen and (min-width:800px){

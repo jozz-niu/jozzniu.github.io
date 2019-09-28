@@ -3,7 +3,7 @@ GENERAL
 *************************** */
 
 body{
-	font-family:"宋体";
+	font-family:Arial, Helvetica, sans-serif;
 }
 
 #wow{
@@ -12,6 +12,12 @@ body{
 /*margin简写属性在一个声明中设置所有外边距属性。该属性可以有1到4个值。这个简写属性设置一个元素所有外边距的宽度，或者设置各边上外边距的宽度。块级元素的垂直相邻外边距会合并，而行内元素实际上不占上下外边距。行内元素的的左右外边距不会合并。同样地，浮动元素的外边距也不会合并。允许指定负的外边距值，不过使用时要小心。注释：允许使用负值。*/
 	padding:0 3.5%;
 /*padding简写属性在一个声明中设置所有内边距属性。这个简写属性设置元素所有内边距的宽度，或者设置各边上内边距的宽度。行内非替换元素上设置的内边距不会影响行高计算；因此，如果一个元素既有内边距又有背景，从视觉上看可能会延伸到其他行，有可能还会与其他内容重叠。元素的背景会延伸穿过内边距。不允许指定负边距值。注释：不允许使用负值。*/
+}
+
+#sp{
+	max-width:940px;
+	margin:0 auto;
+	padding:0 3.5%;
 }
 
 a {
@@ -44,7 +50,7 @@ header{
 }
 
 h1{
-	font-family:"宋体";
+	font-family:Arial, Helvetica, sans-serif;
 	margin:15px 0;
 	font-size:1.75em;/*em是相对的可以根据页面大小变化*/
 	font-weight:bolder;
@@ -52,7 +58,7 @@ h1{
 }
 
 h2{
-	font-size:0.75em;
+	font-size:0.85em;
 	margin:5px 0 0;
 	font-weight:bold;
 }
@@ -137,6 +143,8 @@ PAGE ABOUT
 	border-radius:20px;/*border-radius 属性是一个最多可指定四个 border -*- radius 属性的复合属性 提示： 这个属性允许你为元素添加圆角边框！*/
 }
 
+
+
 /* ***************************
 PAGE CONTACT
 *************************** */
@@ -170,6 +178,40 @@ PAGE CONTACT
 }
 
 /* ***************************
+PAGE SURPRISE
+*************************** */
+
+
+.surprise{
+	display:block;
+	max-width:80px;
+	margin:0 0 20px 0;
+	border-radius:10px;
+}
+
+#wangzhi{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#wangzhi li{
+	float:left;
+	width:46%;
+	margin:1% 2% 1% 2%;
+	background-color:#666666;
+	color:#bdc3c7;
+}
+
+#wangzhi li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.00em;
+	color:#66FF99;
+}
+
+
+
+/* ***************************
 COLORS
 *************************** */
 
@@ -197,7 +239,7 @@ h1,h2{
 }
 /*links*/
 a{
-	color:#00FF00;
+	color:#6ab47b;
 }
 
 
