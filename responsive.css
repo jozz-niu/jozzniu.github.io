@@ -1,0 +1,40 @@
+@media screen and (min-width:660px){
+	/* ***************************
+	TWO COLUMN LAYOUT
+	*************************** */
+	#one{
+		width:50%;
+		float:left;
+	}
+	
+	#two{
+		width:40%;
+		float:right;
+	}
+	
+	/* ***************************
+	PAGE VEDIO
+	*************************** */
+	#huace li{
+		width:28.3333%;
+	}
+
+	/* ***************************
+	PAGE ABOUT
+	*************************** */
+	.about{
+		float:left;
+		margin:0.5% 80px 0;
+	}
+	
+	/* ***************************
+	PAGE ABOUT
+	*************************** */
+	.surprise{
+		float:left;
+		margin:0.5% 150px 0;
+	}
+
+@media screen and (min-width:800px){
+
+}

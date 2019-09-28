@@ -1,0 +1,253 @@
+/* ***************************
+GENERAL
+*************************** */
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wow{
+	max-width:940px;/*max-width定义元素的最大宽度。该属性值会对元素的宽度设置一个最高限制。因此，元素可以比指定值窄，但不能比其宽。不允许指定负值。*/
+	margin:0 auto;
+/*margin简写属性在一个声明中设置所有外边距属性。该属性可以有1到4个值。这个简写属性设置一个元素所有外边距的宽度，或者设置各边上外边距的宽度。块级元素的垂直相邻外边距会合并，而行内元素实际上不占上下外边距。行内元素的的左右外边距不会合并。同样地，浮动元素的外边距也不会合并。允许指定负的外边距值，不过使用时要小心。注释：允许使用负值。*/
+	padding:0 3.5%;
+/*padding简写属性在一个声明中设置所有内边距属性。这个简写属性设置元素所有内边距的宽度，或者设置各边上内边距的宽度。行内非替换元素上设置的内边距不会影响行高计算；因此，如果一个元素既有内边距又有背景，从视觉上看可能会延伸到其他行，有可能还会与其他内容重叠。元素的背景会延伸穿过内边距。不允许指定负边距值。注释：不允许使用负值。*/
+}
+
+#sp{
+	max-width:940px;
+	margin:0 auto;
+	padding:0 3.5%;
+}
+
+a {
+	text-decoration:none;/*text-decoration 属性规定添加到文本的修饰。注释：修饰的颜色由 "color" 属性设置。*/
+}
+
+img{
+	max-width:100%;
+}
+
+h3{
+	margin:0 0 1em 0;
+}
+
+
+/* ***************************
+HEADING
+*************************** */
+
+header{
+	float:left;
+	margin:0 0 30px 0;
+	padding:5px 0 0 0;
+	width:100%;
+}
+
+#logo{
+	text-align:center;/*对齐*/
+	margin:0;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:15px 0;
+	font-size:1.75em;/*em是相对的可以根据页面大小变化*/
+	font-weight:bolder;
+	line-height:0.8em;
+}
+
+h2{
+	font-size:0.85em;
+	margin:5px 0 0;
+	font-weight:bold;
+}
+
+/* ***************************
+NAVGATION
+*************************** */
+
+nav{
+	text-align:center;
+/*text-align属性规定元素中的文本的水平对齐方式。该属性通过指定行框与哪个点对齐，从而设置块级元素内文本的水平对齐方式。通过允许用户代理调整行内容中字母和字之间的间隔，可以支持值 justify；不同用户代理可能会得到不同的结果。*/
+	padding:10px 0;
+	margin:20px 0 0;
+}
+
+nav ul{
+	list-style:none;
+	margin:0 10px;
+	padding:0;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	font-weight:800;
+	padding:15px 10px;
+}
+
+
+/* ***************************
+FOOTER
+*************************** */
+footer{
+	font-size:0.75em;
+	text-align:center;
+	clear:both;
+	padding-top:50px;
+	color:#ccc;
+}
+
+.logo{
+	width:30px;
+	height:30px;
+	margin:0 5px;
+}
+
+/* ***************************
+PAGE VIDEO
+*************************** */
+
+#huace{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#huace li{
+	float:left;
+	width:45%;
+	margin:2.5%;
+	background-color:#f5f5f5;
+	color:#bdc3c7;
+}
+
+#huace li a p{
+	margin:0;
+	padding:5%;
+	font-size:0.75em;
+	color:#bdc3c7;
+}
+
+/* ***************************
+PAGE ABOUT
+*************************** */
+
+.about{
+	display:block;/*block 	此元素将显示为块级元素，此元素前后会带有换行符。*/
+	max-width:150px;
+	margin:0 auto 30px;
+	border-radius:20px;/*border-radius 属性是一个最多可指定四个 border -*- radius 属性的复合属性 提示： 这个属性允许你为元素添加圆角边框！*/
+}
+
+
+
+/* ***************************
+PAGE CONTACT
+*************************** */
+
+.lianxi{
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:0.9em;
+}
+
+.lianxi a{
+	display:block;
+	min-height:20px;
+	background-repeat:no-repeat;
+	background-size:20px 20px;
+	padding:0 0 0 30px;
+	margin:0 0 10px;
+}
+
+.lianxi li.phone a{
+	background-image:url('../img/phone.png');
+}
+
+.lianxi li.mail a{
+	background-image:url('../img/mail.png');
+}
+
+.lianxi li.baidu a{
+	background-image:url('../img/baidu.png');
+}
+
+/* ***************************
+PAGE SURPRISE
+*************************** */
+
+
+.surprise{
+	display:block;
+	max-width:80px;
+	margin:0 0 20px 0;
+	border-radius:10px;
+}
+
+#wangzhi{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#wangzhi li{
+	float:left;
+	width:46%;
+	margin:1% 2% 1% 2%;
+	background-color:#666666;
+	color:#bdc3c7;
+}
+
+#wangzhi li a{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.00em;
+	color:#66FF99;
+}
+
+
+
+/* ***************************
+COLORS
+*************************** */
+
+/*site body*/
+body{
+	background-color:#FFFFFF;
+	color:#999;
+}
+
+/*green header*/
+header{
+	background:#00CC99;
+	border-color:#66CC66;/*边框颜色*/
+}
+
+/*导航背景*/
+nav{
+	background:#66CC66;
+}
+
+
+/*logo text*/
+h1,h2{
+	color:#FFFFFF;
+}
+/*links*/
+a{
+	color:#6ab47b;
+}
+
+
+/*nav links*/
+nav a{
+	color:#FFFFFF;
+}
+/*abb nav links*/
+nav a.abb,nav a:hover{/*hover 鼠标悬停显示不同的颜色*/
+	color:#336600;
+}
